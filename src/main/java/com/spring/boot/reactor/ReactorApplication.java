@@ -1,10 +1,8 @@
-package com.spring_web_flux.reactor;
+package com.spring.boot.reactor;
 
-import com.spring_web_flux.reactor.models.Comentario;
-import com.spring_web_flux.reactor.models.Usuario;
-import com.spring_web_flux.reactor.models.UsuarioComentario;
-import org.reactivestreams.Subscriber;
-import org.reactivestreams.Subscription;
+import com.spring.boot.reactor.models.Usuario;
+import com.spring.boot.reactor.models.UsuarioComentario;
+import com.spring.boot.reactor.models.Comentario;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
@@ -18,7 +16,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
-import java.util.concurrent.Callable;
 
 @SpringBootApplication
 public class ReactorApplication implements CommandLineRunner {

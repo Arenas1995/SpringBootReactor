@@ -1,4 +1,4 @@
-package com.spring_web_flux.reactor.models;
+package com.spring.boot.reactor.models;
 
 import lombok.*;
 

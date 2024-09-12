@@ -1,4 +1,4 @@
-package com.spring_web_flux.reactor.models;
+package com.spring.boot.reactor.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,8 +9,9 @@ import lombok.ToString;
 @Setter
 @AllArgsConstructor
 @ToString
-public class Usuario {
+public class UsuarioComentario {
 
-    private String nombre;
-    private String apellido;
+    private Usuario usuario;
+
+    private Comentario comentario;
 }

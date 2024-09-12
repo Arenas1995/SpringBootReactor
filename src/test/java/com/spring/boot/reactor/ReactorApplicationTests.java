@@ -1,4 +1,4 @@
-package com.spring_web_flux.reactor;
+package com.spring.boot.reactor;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
