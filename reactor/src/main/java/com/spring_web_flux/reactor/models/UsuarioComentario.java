@@ -9,8 +9,9 @@ import lombok.ToString;
 @Setter
 @AllArgsConstructor
 @ToString
-public class Usuario {
+public class UsuarioComentario {
 
-    private String nombre;
-    private String apellido;
+    private Usuario usuario;
+
+    private Comentario comentario;
 }
